@@ -1,0 +1,326 @@
+@font-face{
+	font-family:"RobotoCondensed";
+	src:url("../fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face{
+	font-family:"Balqis";
+	src:url("../fonts/Balqis.ttf");
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	font-family: "Balqis";
+	font-size: 250px;
+	line-height: 334px;
+	font-weight: normal;
+	text-align: center;
+}
+html,body{
+	padding: 0;
+    margin:  0;
+    font-family:"RobotoCondensed";
+}
+.container{
+	margin: 0 auto;
+	
+}
+.menu{
+	margin: 0 15px 0 15px;
+}
+.menu li a{
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	justify-content: center;
+}
+.menu li{display:inline-block;
+		 margin-right: 52px;
+		}
+header{
+	background: url("../img/sova.png") no-repeat center center fixed;
+}
+.knop{
+	width: 20px;
+}
+.menu a{
+	display: flex;
+}
+.fons{
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 72px;
+}
+.menu a,.phone{
+	color: #000;
+	text-decoration: none;
+}
+.phone{color: black;
+	   text-decoration: underline;}
+.menu a:hover{text-decoration: underline;}
+.phone:hover{text-decoration: underline;}
+.med{
+	font-family: 'Balqis';
+	font-style: normal;
+	line-height: 128px;
+	color: #E2AB3F;
+	font-weight: 400;
+	font-size: 96px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	
+	
+
+}
+
+h2{
+	margin: 150px 1242px 0 348px;
+    width: 500px;
+	font-size: 96px;
+	font-weight: 400;
+	color: #E2AB3F;
+}
+.bot{
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 28px;
+	color: #000000;	
+	margin: 2px 1160px 100px 619px;
+	width: 500px;
+    height: 28px;
+}
+.ben{
+	font-family: 'Balqis';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 96px;
+	line-height: 128px;
+	color: #E2AB3F;
+	text-align: center;
+
+}
+.march{
+	
+}
+.bed{
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 28px;
+	color: #000000;	
+	margin: 2px 1160px 120px 619px;
+	width: 500px;
+    height: 28px;
+}
+.textcapa{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	flex-direction: column;
+	column-gap: 50px;
+	margin-left: 55px;
+	justify-content:center;
+	color: #000000;
+	width: 545px;
+}
+h3{
+	font-size: 24px;
+	width: 200px;
+	height: 22px;
+	color: #000;
+	font-weight: 600;
+}
+.three{
+	display: flex;
+	align-items: center;
+}
+.text{
+	width: 240px;
+}
+.tex{
+	width: 400px;
+}
+.texttwo{
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	display: block;
+    margin: 0 350px 400px 400px;
+}
+.btn-zakaz{
+   border: 3px solid #ffdc97;
+   padding: 15px 30px;
+   font-size: 20px;
+   font-weight: 200;
+ 
+}
+.sult{
+	display: flex;
+	
+	
+}
+.otel{
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+}
+.fot{
+	width: 1200px;
+
+	
+}
+.peh{
+	width: 600px;
+	font-weight: 300;
+	font-size: 18px;
+}
+.gol{
+	margin-left: 100px;
+}
+.kl{
+	display: flex;
+	align-items: center;
+}
+.les{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+.knopka{
+	color:#E2AB3F;
+   	padding: 15px 30px;
+  	 font-size: 20px;
+   	font-weight: 200;
+	display: inline-block;
+}
+.box
+{
+	width: 500px;
+}
+.bix{
+	width: 500px;
+}
+.mak{
+	display: inline-block;
+}
+.wot{
+	
+	align-items: center;
+}
+.lim{
+	display: block;
+}
+.bom{
+	text-align: center;
+	
+}
+.vot{
+	display: block;
+	
+}
+.hod{
+	color: rgb(89, 11, 225);
+}
+.kras{
+	margin-bottom: -500px;
+}
+h4{
+	font-size: 80px;
+	font-weight: 400;
+	margin-left: 821px;
+
+}
+.top{
+	background: url("../img/krasota.jpg") no-repeat center center ;
+}
+.red{
+	background: url("../img/lom.png") no-repeat center center ;
+	height: 527px;
+	width: 356px;
+	text-align: center;
+	align-items: center;
+	margin:80px 40px 30px 300px;
+
+	
+	
+
+}
+h5{
+	font-weight: 400;
+	font-size: 75px;
+	color: #E2AB3F;
+	margin-top: 190px;
+}
+.post{
+	margin-top: 200px;
+	text-align: center;
+}
+.zet{
+	margin-left: 100px;
+}
+.limon{
+	color: #000;
+    align-items: center;
+}
+.apple{
+	color: #000;
+	align-items: center;
+}
+.mot{
+	align-items: center;
+	margin-top: 50px;
+}
+h4{
+	font-weight: 400;
+	font-size: 86px;
+}
+.get{
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 28px;
+	color: #000000;	
+	margin: 2px 1160px 120px 619px;
+	width: 500px;
+    height: 28px;
+}
+.kilka{
+	font-family: 'Roboto Condensed';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 28px;
+	color: #000000;	
+	margin: -180px 1160px -320px 480px;
+	width: 500px;
+    height: 28px;
+}
+.fen{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.min{
+	margin-top: -160px;
+}
+.bin{
+	margin-top: -155px;
+}
